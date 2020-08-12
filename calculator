@@ -1,1 +1,89 @@
+*HTML FILE*
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="task3.css">
+    <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="calculator.js"></script>
+    <style>
+       button{
+        height:55px; width: 55px; margin-left: 0px; background-color: rgb(41, 40, 40);
+        outline: none; border: none; border-radius: 50%; margin-top: 15px; color: white; font-size: 20px;
+       } 
+    </style>
+</head>
+<body>
+    <div style=" margin-top: 50px; margin-left: 500px; height: 540px; width: 330px;
+     background-color: black; border: 1px solid cadetblue;" >
+     <div style="background-color: black; height: 120px; color: white; font-size: 30px;">
+    <div style="margin-top: 50px; margin-left: 200px;">***</div>
+    <div style="margin-top: 25px;margin-left: 200px;">0</div>
+    </div>
+
+
+     <div style="background-color: rgb(29, 29, 29); height: 380px; border-top: 1px solid rgb(83, 82, 82);">
+     <div style="display: flex; justify-content: center; justify-content: space-between; margin-left: 20px; margin-right:20px;"  >
+        <button    style="">C
+           </button>
+            <button    style="">%
+               </button>
+                <button    style="">del
+                   </button>
+                    <button    style="">/
+                        </button>
+    </div>
+
+    <div style="display: flex; justify-content: center; justify-content: space-between; margin-left: 20px; margin-right:20px;"  >
+        <button    style="">7
+           </button>
+            <button    style="">8
+                </button>
+                <button    style="">9
+                   </button>
+                    <button    style="">*
+                        </button>
+    </div>
+    <div style="display: flex; justify-content: center; justify-content: space-between; margin-left: 20px; margin-right:20px;"  >
+        <button    style="">4
+           </button>
+            <button    style="">5
+               </button>
+                <button    style="">6
+                   </button>
+                    <button    style="">-
+                       </button>
+    </div>
+    <div style="display: flex; justify-content: center; justify-content: space-between; margin-left: 20px; margin-right:20px;"  >
+        <button    style="">1
+            </button>
+            <button    style="">2
+                </button>
+                <button    style="">3
+                   </button>
+                    <button    style="">+
+                        </button>
+    </div>
+    <div style="display: flex; justify-content: center; justify-content: space-between; margin-left: 20px; margin-right:20px;"  >
+        <button    style="height:55px; width: 150px; margin-left: 0px; background-color: rgb(43, 41, 41);
+        outline: none; border: none; border-radius: 50px; margin-top: 15px;">
+           0 </button>
+           
+                <button    style="">. </button>
+                    <button    style="">=</button>
+    </div>
+</div>
+
+    </div>
+
+</body>
+</html>
+
+
+*JAVA Scrpit file*
+
+
 
