@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Box</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #ffcc13;
+        }
+form{
+    width: 1000px;
+  
+   
+}
+.search{
+    width: 55%;
+   
+    font-size: 20px;
+}
+.submit{
+    width: 12%;
+  
+    font-size: 20px;
+}
+
+
+    </style>
+</head>
+<body>
+    <div style="background: #f16969; display: flex; justify-content: flex-start;
+    align-items: center; width: 1000px; height: 50px;">
+    <div style="margin-left: 40px;">Nav Bar</div> </div>
+    <div style="display: flex; justify-content: center; align-items: center; margin-top: 30px;">
+    <div class="keyword" style="margin-right: 10px; margin-left: 80px;">Keywords</div>
+    <form>
+    <input  type="text" name="text" class="search" placeholder="">
+    <input type="submit" name="submit" class="submit" value="submit"></form>
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <div style= " height:200px; flex:3;"></div>
+
+<div style= " background-color:#ffbe58 ; height:200px; flex:1;" class="container">
+    <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
+    <button style="margin-top: 30px;  margin-right: 20px  ;" class="btn1">Sanket</button>
+    <button style="margin-top: 30px;" class="btn2">CSS</button></div>
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <button  style=" margin-right: 20px  ;" class="btn3">Ritesh</button>
+    <button class="btn4">HTML</button></div>
+</div>
+</div>
+</body>
+</html>
